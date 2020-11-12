@@ -1,33 +1,75 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 110vh;
+  height: 90vh;
+  background: gray;
+  padding-bottom: 70px;
+}
+#result {
+  height: 20vh;
+  width: 100vh;
+  color: black;
+  background: rgb(216, 214, 214);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.btn {
+  width: 25vh;
+  height: 10vh;
+  font-size: 20px;
+}
+.btn0 {
+  width: 50vh;
+  height: 10vh;
+  font-size: 20px;
+}
+.btndot {
+  width: 25vh;
+  height: 10vh;
+  font-size: 20px;
+}
+.btn:hover {
+  background: orange;
+}
+.btn0:hover {
+  background: orange;
+}
+.btndot:hover {
+  background: orange;
+}
+.operator {
+  width: 25vh;
+  height: 10vh;
+  font-size: 20px;
+  background: orangered;
+}
+.operatorequals {
+  width: 25vh;
+  height: 10vh;
+  font-size: 20px;
+  background: green;
+}
+#heading {
+  height: 10vh;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(46, 42, 42);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
